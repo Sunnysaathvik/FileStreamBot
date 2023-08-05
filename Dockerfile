@@ -10,7 +10,6 @@ COPY . /FileStreamBot
 # Install the application dependencies
 RUN pip3 install -r requirements.txt
 RUN git clone https://github.com/DeekshithSH/FileStreamBot
-cd FileStreamBot
 RUN python3 -m venv ./venv
 COPY . ./venv/bin/activate
 RUN python3 -m WebStreamer

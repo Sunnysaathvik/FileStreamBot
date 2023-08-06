@@ -16,5 +16,5 @@ RUN python3 -m WebStreamer
 run pip install --upgrade pip
 
 # Define the entry point for the container
-CMD ["python", ]
+CMD ["python", "-m", "webstreamer" ]
 EXPOSE 8080/tcp 

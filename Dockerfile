@@ -2,10 +2,10 @@
 FROM python:3.8
 
 # Set the working directory in the container
-WORKDIR /FileStreamBot
+WORKDIR /FileStreamBot/app/
 
 # Copy the application files into the working directory
-COPY . /requirements.txt
+COPY . /FileStreamBot/app/
 
 # Install the application dependencies
 RUN git clone https://github.com/DeekshithSH/FileStreamBot

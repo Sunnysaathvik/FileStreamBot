@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /FileStreamBot
 
 # Copy the application files into the working directory
-COPY . .requirements.txt
+COPY . /requirements.txt
 
 # Install the application dependencies
 RUN git clone https://github.com/DeekshithSH/FileStreamBot

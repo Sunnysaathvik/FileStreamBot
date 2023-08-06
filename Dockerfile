@@ -13,3 +13,4 @@ run pip install --upgrade pip
 
 # Define the entry point for the container
 CMD ["python", "runserver", "0.0.0.0:8000"]
+EXPOSE 8080/tcp 

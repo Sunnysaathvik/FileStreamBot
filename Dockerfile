@@ -8,7 +8,7 @@ WORKDIR /FileStreamBot/app/
 COPY . /FileStreamBot/app/
 
 # Install the application dependencies
-RUN git clone https://github.com/Sunnysaathvik/FileStreamBot/
+RUN git clone https://github.com/Sunnysaathvik/FileStreamBot
 RUN pip3 install -r requirements.txt
 RUN python3 -m WebStreamer
 run pip install --upgrade pip
